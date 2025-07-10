@@ -171,7 +171,7 @@ st.sidebar.markdown("<div class='wiki-toc'><h2>Contents</h2><ul>" +
     "</ul></div>", unsafe_allow_html=True)
 
 # --- Main content logic ---
-search_query = st.experimental_get_query_params().get('search', [''])[0]
+search_query = st.query_params.get('search', [''])[0] if hasattr(st, 'query_params') else ''
 if search_query:
     found = search_sections(search_query)
     st.markdown(f"<div class='wiki-header'>Search results for '<b>{search_query}</b>':</div>", unsafe_allow_html=True)
