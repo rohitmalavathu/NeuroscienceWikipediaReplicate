@@ -1,5 +1,4 @@
 # Neuroscience Wikipedia Replicate
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/rohitmalavathu/NeuroscienceWikipediaReplicate)
 
 This repository contains a Streamlit application that replicates a Wikipedia-style article on Neuroscience. The application provides an interactive and educational reading experience with custom styling, a functional search bar, and hover-to-reveal tooltips for key terminology.
 
